@@ -2,15 +2,31 @@
     padding: 0 px;
     margin: 0 px;
 }
-
+body{
+    font-family: 'Raleway', sans-serif;
+}
 .header1{
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
-   padding-left: 150px;
-   padding-right: 150px;
+   padding-left: 10%;
+   padding-right: 10%;
     align-items: center;
   
+}
+.home p:hover{
+    color: red;
+}
+.reg a:hover{
+    color: red;
+}
+header i:hover{
+    color: red;
+    cursor: pointer;
+}
+header p:hover{
+    color: red;
+    cursor: pointer;;
 }
 .header1 .reg a{
     text-decoration: none;
@@ -19,6 +35,7 @@
 .regicon{
     display: flex;
     column-gap: 30px;
+    justify-content: center;
 }
 .header2{
     border-bottom: 2px solid rgb(186, 182, 172);
@@ -55,6 +72,7 @@
     padding-right: 150px;
     align-items: center;
     position: sticky;
+    z-index: 20;
     top: 0%;
 }
 .navigation .home{
@@ -127,7 +145,8 @@ button{
     border: none;
 }
 .page2{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
      padding-left: 150px;
     padding-right: 150px;
     /* border: 2px solid red; */
@@ -137,42 +156,55 @@ button{
 }
 .sell{
     /* border: 2px solid red; */
-    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     top:-50%;
     left:50%;
-   
-    background-color:rgba(161, 127, 97, 0.765);
+    font-size: 25px;
+    background-color:rgba(234, 228, 223, 0.765);
 }
 .flowers{
     /* border: 2px solid red; */
-    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     top:-50%;
+    font-size: 25px;
+    color: white;
     left:50%;
-    border-right:1px solid white ;
-    background-color: rgba(169, 169, 169, 0.662);
+    border-right:2px solid rgb(234, 228, 223)ite ;
+    background-color: grey;
+   cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
 }
 .products{
     /* border: 2px solid red; */
-    width: 30%;
     top:-50%;
+    font-size: 25px;
     left:50%;
-    background-color: rgba(169, 169, 169, 0.662);
+    color: white;
+    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
-
+cursor: pointer;
 }
 .plus{
     position: absolute;
     top:25%;
-    left:55.2%;
+    left:60.45%;
 
+}
+.flowers:hover{
+    background-color:rgba(234, 228, 223, 0.765);
+}
+.products:hover{
+    background-color:rgba(234, 228, 223, 0.765);
 }
 .plus i{
     font-size: 100px;
@@ -205,8 +237,16 @@ button{
     color: red;
 }
 .price{
-    background-color:rgba(255, 192, 203, 0.311);
+    background-color:rgba(234, 228, 223, 0.516);
     height: 40vh;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.price1{
+    height: 40vh;
+    background-color:rgba(176, 150, 150, 0.256);
     padding-left: 250px;
     padding-right: 250px;
     display: flex;
@@ -244,4 +284,35 @@ footer{
 }
 .amount{
     padding: 20px;
+}
+
+footer p:hover{
+    color:red;
+    cursor: pointer;
+}
+footer i:hover{
+    color:red;
+}
+
+button:hover{
+    color:red;
+    background-color: white;
+    border: 2px solid rgb(207, 58, 58);
+}
+.product:hover{
+    background-color: whitesmoke;
+}
+.works{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.workphoto{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction:column;
+    padding: 30px;
+    text-align: center;
+    font-weight: lighter;
 }
