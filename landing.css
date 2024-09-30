@@ -1,0 +1,247 @@
+*{
+    padding: 0 px;
+    margin: 0 px;
+}
+
+.header1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+   padding-left: 150px;
+   padding-right: 150px;
+    align-items: center;
+  
+}
+.header1 .reg a{
+    text-decoration: none;
+    color: black;
+}
+.regicon{
+    display: flex;
+    column-gap: 30px;
+}
+.header2{
+    border-bottom: 2px solid rgb(186, 182, 172);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+   padding-left: 150px;
+   padding-right: 150px;
+    align-items: center;
+}
+.follows{
+    display:flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.favorite{
+    display:flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.addtocart{
+    display:flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.navigation{
+    /* border: 2px solid red; */
+    height: 100px;
+    background-color: rgb(237, 236, 235);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+.navigation .home{
+    display: flex;
+    column-gap: 40px;
+}
+.search input{
+    padding-left: 20px;
+}
+.search{
+    display: flex;
+    height: 30px;
+}
+.search .searchicon{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page1{
+background-color: aliceblue;
+}
+.image{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+     padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+.photo1{
+    background-image: url('flowerhead.png');
+    background-repeat:no-repeat;
+    height: 60vh;
+    width: 50%;
+}
+.photo1 h1{
+    margin-top: -70px;
+    font-size: 60px;
+    text-align: center;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+     padding-left: 150px;
+    padding-right: 150px;
+    column-gap: 40px;
+}
+.p1{
+    width: 40%;
+}
+.p2{
+    width: 40%;
+}
+.content1 .button{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.page2{
+    display: flex;
+     padding-left: 150px;
+    padding-right: 150px;
+    /* border: 2px solid red; */
+    height: 200px;
+    position:relative;
+    /* width: 100%; */
+}
+.sell{
+    /* border: 2px solid red; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-50%;
+    left:50%;
+   
+    background-color:rgba(161, 127, 97, 0.765);
+}
+.flowers{
+    /* border: 2px solid red; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-50%;
+    left:50%;
+    border-right:1px solid white ;
+    background-color: rgba(169, 169, 169, 0.662);
+}
+.products{
+    /* border: 2px solid red; */
+    width: 30%;
+    top:-50%;
+    left:50%;
+    background-color: rgba(169, 169, 169, 0.662);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.plus{
+    position: absolute;
+    top:25%;
+    left:55.2%;
+
+}
+.plus i{
+    font-size: 100px;
+    color:white;
+}
+.newproduct{
+    width: 35%;
+    padding-left: 30%;
+    text-align: center;
+    
+}
+.productsimsge{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 70vh;
+
+}
+.product{
+    border: 2px  solid white;
+    padding: 20px;
+    text-align: center;
+    background-color:rgba(255, 192, 203, 0.311);
+    
+}
+.product p{
+    padding-left: 90%;
+    color: red;
+}
+.price{
+    background-color:rgba(255, 192, 203, 0.311);
+    height: 40vh;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: aliceblue;
+    display: grid;
+    padding-left: 150px;
+    padding-right: 150px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.email{
+        display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.town{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.amount hr{
+    width: 100%;
+    padding-left: 0px;
+}
+.amount p{
+    word-spacing: 20px;
+}
+.amount{
+    padding: 20px;
+}
